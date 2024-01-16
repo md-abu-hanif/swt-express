@@ -95,11 +95,16 @@ select,
     margin-bottom: 20px;
 }
 
+
 .website-description {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 20px;
+}
+
+.color13 {
+    color: #131318;
 }
 
 /* destination/ second part  */
@@ -273,6 +278,12 @@ select,
     background: rgba(19, 19, 24, 0.05);
 }
 
+.travel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .company-name,
 .company-title {
     font-size: 2rem;
@@ -290,6 +301,9 @@ select,
     font-size: 2rem;
 }
 
+hr{
+    height: 1px;
+}
 
 /* responsive for small device */
 
@@ -341,6 +355,68 @@ select,
         width: 50%;
         height: 80px;
         bottom: 180px;
+        left: 40%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .price-guarantee {
+        width: 85%;
+    }
+}
+
+/* responsive for medium device */
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    * {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .header {
+        height: 460px;
+        padding: 20px;
+    }
+
+    .header-title,
+    .website-title,
+    .image-title,
+    .discount-percent,
+    .company-name {
+        font-size: 1.5rem;
+    }
+
+    .banner-description {
+        font-size: 0.7rem;
+    }
+
+    .first-section,
+    .inputs,
+    .news-latter,
+    .destination-img-flex,
+    .choose-us {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .first-section-img img,
+    .news-latter img,
+    .road,
+    .road-2,
+    .home,
+    .home-1,
+    .home-2,
+    .river,
+    .river-1 {
+        width: 100%;
+    }
+
+    .discount {
+        width: 50%;
+        height: 80px;
+        bottom: 220px;
         left: 40%;
     }
 
