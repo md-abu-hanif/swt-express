@@ -20,20 +20,40 @@
                     Deleniti alias libero, quaerat quos a illo corrupti quis, veritatis minus vitae eum voluptates amet
                     odio, possimus fugiat obcaecati. Voluptas, omnis nesciunt!</p>
             </div>
-            <div class="inputs">
+            <div>
+                <form class="inputs">
                     <input type="text" name="" id="" placeholder="Where go">
-                    <input type="text" name="" id="" placeholder="When">
-                    <input type="text" name="" id="" placeholder="Select Type">
+                    <!-- <input type="text" name="" id="" placeholder="When"> -->
+                    <!-- <input type="text" name="" id="" placeholder="Select Type"> -->
+                    <select id="place" name="place">
+                        <option value="australia">When</option>
+                        <option value="australia">Today</option>
+                        <option value="canada">Yesterday</option>
+                        <option value="usa">Today Afternoon</option>
+                    </select>
+                    <select id="place" name="place">
+                        <option value="australia">Select Type</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="usa">Coxes Bazar & Jaflong</option>
+                    </select>
                     <input class="primary-btn" type="button" value="Find Now">
+                </form>
             </div>
         </section>
     </header>
+
     <!-- main part start -->
+
     <main>
+        <!-- first section start  -->
+
         <section class="first-section">
             <article>
                 <h2 class="website-title">Our Popular Tours</h2>
-                <p class="website-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta dolor tenetur voluptatem, sequi,
+                <p class="website-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta
+                    dolor tenetur voluptatem, sequi,
                     eius praesentium nobis neque excepturi illum accusamus quasi? Pariatur, hic sed?</p>
                 <ul class="website-description">
                     <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
@@ -46,10 +66,71 @@
                 <p class="website-description">Amet consectetur. Vulputate commodo felis molestie risus
                     ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
                     natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
-                    <input class="primary-btn" type="button" value="Read More">
+                <input class="primary-btn" type="button" value="Read More">
             </article>
             <article class="first-section-img">
                 <img src="./Images/till.png" alt="">
+            </article>
+        </section>
+
+        <!-- second section destination start -->
+
+        <section class="second-destination-part">
+            <article class="destination-text">
+                <h2 class="website-title">Choose Your Destination</h2>
+                <p class="website-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita
+                    distinctio corporis rem et repellat praesentium eos. Deserunt quo tempora cupiditate, ipsam
+                    provident temporibus eaque.</p>
+            </article>
+            <article class="destination-img">
+                <div class="destination-img-flex">
+                    <div class="road">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                    <div class="road-2">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                </div>
+
+                <div class="destination-img-flex">
+                    <div class="home">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                    <div class="home-1">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                    <div class="home-2">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                </div>
+
+                <div class="destination-img-flex">
+                    <div class="river">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                    <div class="river-1">
+                        <h3 class="image-title">this is hanif</h3>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <!-- News letter part start -->
+
+        <section class="news-latter">
+            <article class="news-latter-input-form">
+                <h3 class="news-latter-title">Newsletter</h3>
+                <p class="website-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt odio
+                    quis omnis enim voluptas neque.</p>
+                <form action="" class="form-input">
+                    <input type="text" name="text   " id="text" placeholder="Enter Your Name" required> <br>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required> <br>
+                    <input class="primary-btn" id="subscribe" type="submit" value="Subscribe">
+                </form>
+            </article>
+            <article>
+                <img src="./Images/newslatter.png" alt="">
             </article>
         </section>
     </main>
