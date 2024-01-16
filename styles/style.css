@@ -4,9 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 
 * {
+    font-family: 'Mulish', sans-serif;
+}
+
+header,
+main {
     margin: 0 auto;
     max-width: 1120px;
-    font-family: 'Mulish', sans-serif;
 }
 
 .primary-btn {
@@ -50,6 +54,7 @@
 
 .inputs {
     display: flex;
+    justify-content: space-between;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
@@ -76,7 +81,8 @@ select,
 }
 
 .website-title,
-.news-latter-title {
+.news-latter-title,
+.company-name {
     color: #131318;
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -206,7 +212,7 @@ select,
     height: 120px;
     position: relative;
     bottom: 220px;
-    left: 140px;
+    left: 290px;
     transform: rotate(-20deg);
 }
 
@@ -218,6 +224,32 @@ select,
 .discount-site {
     font-size: 1.5rem;
 }
+
+/* css for footer part  */
+
+.footer {
+    text-align: center;
+    padding: 80px 350px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.company-name,
+.company-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.company-title {
+    color: #FF5400;
+}
+
+.social-icons {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+}
+
 
 /* responsive for small device */
 
@@ -234,7 +266,8 @@ select,
     .header-title,
     .website-title,
     .image-title,
-    .discount-percent {
+    .discount-percent,
+    .company-name {
         font-size: 1.5rem;
     }
 
@@ -267,5 +300,9 @@ select,
         height: 80px;
         bottom: 180px;
         left: 40%;
+    }
+
+    .footer {
+        padding: 50px;
     }
 }
