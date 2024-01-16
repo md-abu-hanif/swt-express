@@ -33,14 +33,17 @@
 
 .header-title,
 .news-latter-title,
-.website-title {
+.website-title,
+.discount-percent,
+.discount-site {
     color: #FFF;
     font-weight: 800;
     font-size: 4rem;
     margin-bottom: 20px;
 }
 
-.banner-description {
+.banner-description,
+.discount-site {
     font-size: 1rem;
     font-weight: 400;
 }
@@ -165,11 +168,11 @@ select,
     display: flex;
     gap: 30px;
     align-items: center;
+    margin: -50px 0;
 }
 
 .news-latter-title {
     font-size: 1.5rem;
-
 }
 
 .news-latter-input-form {
@@ -194,6 +197,28 @@ select,
     width: 100%;
 }
 
+.discount {
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    position: relative;
+    bottom: 220px;
+    left: 140px;
+    transform: rotate(-20deg);
+}
+
+.discount-percent {
+    font-size: 2rem;
+    margin-top: -10px;
+}
+
+.discount-site {
+    font-size: 1.5rem;
+}
+
 /* responsive for small device */
 
 @media screen and (max-width: 576px) {
@@ -208,7 +233,8 @@ select,
 
     .header-title,
     .website-title,
-    .image-title {
+    .image-title,
+    .discount-percent {
         font-size: 1.5rem;
     }
 
@@ -234,5 +260,12 @@ select,
     .river,
     .river-1 {
         width: 100%;
+    }
+
+    .discount {
+        width: 50%;
+        height: 80px;
+        bottom: 180px;
+        left: 40%;
     }
 }
