@@ -72,7 +72,8 @@ section {
 .news-latter-title,
 .website-title,
 .discount-percent,
-.discount-site {
+.discount-site,
+.bonus-title {
     color: #FFF;
     font-weight: 800;
     font-size: 4rem;
@@ -205,6 +206,28 @@ select,
     padding: 120px 0;
 }
 
+/* css for bonus part */
+
+.bonus-part {
+    background-image: url('../Images/bonus1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    padding: 300px 50px 50px 30px;
+}
+
+.bonus-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.bonus-line {
+    color: aliceblue;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
 /* third part css start */
 .third-section>h2,
 .third-section>p {
@@ -260,8 +283,6 @@ select,
     padding: 70px 500px 70px 50px;
 }
 
-
-
 .optional-card1 {
     border-radius: 16px;
     border: 2px solid #FFF;
@@ -270,11 +291,12 @@ select,
     padding: 20px 30px;
 }
 
-.price-range{
+.price-range {
     color: #FF5400;
-font-size: 1.25rem;
-font-weight: 800;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
+
 /* news latter section start  */
 
 .news-latter {
@@ -373,6 +395,10 @@ hr {
         padding: 5px;
     }
 
+    section {
+        margin-bottom: 30px;
+    }
+
     .header {
         height: 460px;
         padding: 20px;
@@ -422,7 +448,8 @@ hr {
 
     .footer,
     .optional-part1,
-    .optional-part2 {
+    .optional-part2,
+    .bonus-part {
         padding: 30px;
     }
 
@@ -437,6 +464,10 @@ hr {
     * {
         margin: 0;
         padding: 10px;
+    }
+
+    section {
+        margin-bottom: 50px;
     }
 
     .header {
@@ -489,11 +520,12 @@ hr {
         padding: 50px;
     }
 
-    .optional-part1{
+    .optional-part1 {
         padding: 40px 40px 40px 150px;
     }
+
     .optional-part2 {
-padding: 40px 150px 40px 40px;
+        padding: 40px 150px 40px 40px;
     }
 
     .price-guarantee {
