@@ -28,6 +28,7 @@ section {
     font-weight: 700;
     cursor: pointer;
 }
+
 .primary-btn:hover {
     background-color: #FF5400;
 }
@@ -47,7 +48,7 @@ section {
 }
 
 .nav-elements ul li {
-    list-style: none;    
+    list-style: none;
 }
 
 .nav-button {
@@ -205,8 +206,9 @@ select,
 }
 
 /* third part css start */
-.third-section>h2, .third-section>p {
-    text-align: center; 
+.third-section>h2,
+.third-section>p {
+    text-align: center;
 }
 
 .choose-us {
@@ -238,6 +240,41 @@ select,
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* optional part css */
+
+.optional-part>article {
+    margin-bottom: 30px;
+}
+
+.optional-part1,
+.optional-part2 {
+    background-image: url('../Images/beach1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    padding: 70px 50px 70px 500px;
+}
+
+.optional-part2 {
+    background-image: url('../Images/beach.png');
+    padding: 70px 500px 70px 50px;
+}
+
+
+
+.optional-card1 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px 30px;
+}
+
+.price-range{
+    color: #FF5400;
+font-size: 1.25rem;
+font-weight: 800;
+}
 /* news latter section start  */
 
 .news-latter {
@@ -324,7 +361,7 @@ select,
     font-size: 2rem;
 }
 
-hr{
+hr {
     height: 1px;
 }
 
@@ -383,8 +420,10 @@ hr{
         left: 40%;
     }
 
-    .footer {
-        padding: 50px;
+    .footer,
+    .optional-part1,
+    .optional-part2 {
+        padding: 30px;
     }
 
     .price-guarantee {
@@ -448,6 +487,13 @@ hr{
 
     .footer {
         padding: 50px;
+    }
+
+    .optional-part1{
+        padding: 40px 40px 40px 150px;
+    }
+    .optional-part2 {
+padding: 40px 150px 40px 40px;
     }
 
     .price-guarantee {
